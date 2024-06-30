@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.App{
+  background-color: #1E2140;
+}
+.ul{
+  background-color: #151932;
+}
+.active{
+ background-color:  #F87070;
+ border-radius: 100px;
+}
+.ball{
+  width: 15rem;
+  height: 15rem;
+  background-color: #151932;
+  outline: 2rem solid #23274A;
+}
+.pause{
+  letter-spacing:  1rem;
+}
+.btn{
+  background-color:#F87070 ;
+}
+.dis{
+  background-color: #151932;
+}
+input{
+  display: block;
+  width: 60%;
+  border: 1px solid #151932;
+  border-radius: 5px;
+}
+.hidden{
+  display: none;
+}
